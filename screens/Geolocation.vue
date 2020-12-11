@@ -27,9 +27,6 @@ import MapView, { Marker } from "react-native-maps";
 
 import axios from "axios";
 
-// https://github.com/react-native-community/react-native-maps
-// https://github.com/react-native-community/react-native-maps/blob/master/docs/mapview.md
-
 export default {
   data() {
     return {

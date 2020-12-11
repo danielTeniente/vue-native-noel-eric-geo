@@ -9,9 +9,6 @@ import {
   createStackNavigator
 } from "vue-native-router";
 
-import HomeScreen from "./screens/Home.vue";
-import CameraScreen from "./screens/Camera.vue";
-import WebServiceScreen from "./screens/WebService.vue";
 import GeolocationScreen from "./screens/Geolocation.vue";
 import DatabaseScreen from "./screens/Database.vue";
 
@@ -27,7 +24,7 @@ const StackNavigator = createStackNavigator(
   {
     defaultNavigationOptions: {
       gestureEnabled: false,
-      title: "EA-NR - DEBER",
+      title: "Daniel Diaz implementacion",
       headerTitleStyle: {
         textAlign: "center",
         alignSelf: "center",
